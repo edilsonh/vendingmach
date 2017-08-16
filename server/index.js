@@ -55,6 +55,8 @@ app.use(
 // **************** ROUTES ↓
 
 app.use("/", require("./routes/homepage"));
+app.use("/", require("./routes/items"));
+app.use("/", require("./routes/purchase"));
 
 // **************** ROUTES ↑
 
